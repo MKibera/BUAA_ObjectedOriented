@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.2.0" icons="true" generate-combined-fragments="true">  
+  <object id="1" language="java" name="oo.Dispatch" project="Taxi-my-11" file="/Taxi-my-11/src/oo/Dispatch.java" 
+    binary="false" label="dispatch" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="2">      
+      <position height="6467" width="0" x="0" y="214"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="6404" width="0" x="0" y="256"/>    
+    </execution>    
+    <execution id="26">      
+      <position height="21" width="0" x="0" y="1487"/>    
+    </execution>    
+    <execution id="32">      
+      <position height="21" width="0" x="0" y="1725"/>    
+    </execution>    
+    <execution id="70">      
+      <position height="21" width="0" x="0" y="3717"/>    
+    </execution>    
+    <execution id="76">      
+      <position height="21" width="0" x="0" y="3955"/>    
+    </execution>    
+    <execution id="86">      
+      <position height="21" width="0" x="0" y="4482"/>    
+    </execution>    
+    <execution id="92">      
+      <position height="21" width="0" x="0" y="4760"/>    
+    </execution>    
+    <execution id="112">      
+      <position height="21" width="0" x="0" y="5710"/>    
+    </execution>    
+    <execution id="118">      
+      <position height="21" width="0" x="0" y="5948"/>    
+    </execution>  
+  </object>  
+  <object id="133" language="java" name="oo.RequestQueue" project="Taxi-my-11" 
+    file="/Taxi-my-11/src/oo/RequestQueue.java" binary="false" label="rq" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="6">      
+      <position height="21" width="0" x="0" y="349"/>    
+    </execution>    
+    <execution id="8">      
+      <position height="21" width="0" x="0" y="473"/>    
+    </execution>    
+    <execution id="10">      
+      <position height="21" width="0" x="0" y="566"/>    
+    </execution>    
+    <execution id="12">      
+      <position height="21" width="0" x="0" y="690"/>    
+    </execution>    
+    <execution id="14">      
+      <position height="21" width="0" x="0" y="814"/>    
+    </execution>    
+    <execution id="16">      
+      <position height="21" width="0" x="0" y="991"/>    
+    </execution>    
+    <execution id="18">      
+      <position height="21" width="0" x="0" y="1084"/>    
+    </execution>    
+    <execution id="20">      
+      <position height="21" width="0" x="0" y="1177"/>    
+    </execution>    
+    <execution id="22">      
+      <position height="21" width="0" x="0" y="1270"/>    
+    </execution>    
+    <execution id="30">      
+      <position height="21" width="0" x="0" y="1652"/>    
+    </execution>    
+    <execution id="36">      
+      <position height="21" width="0" x="0" y="1890"/>    
+    </execution>    
+    <execution id="40">      
+      <position height="21" width="0" x="0" y="2138"/>    
+    </execution>    
+    <execution id="64">      
+      <position height="21" width="0" x="0" y="3386"/>    
+    </execution>    
+    <execution id="66">      
+      <position height="21" width="0" x="0" y="3510"/>    
+    </execution>    
+    <execution id="68">      
+      <position height="21" width="0" x="0" y="3603"/>    
+    </execution>    
+    <execution id="72">      
+      <position height="21" width="0" x="0" y="3789"/>    
+    </execution>    
+    <execution id="74">      
+      <position height="21" width="0" x="0" y="3882"/>    
+    </execution>    
+    <execution id="80">      
+      <position height="21" width="0" x="0" y="4120"/>    
+    </execution>    
+    <execution id="114">      
+      <position height="21" width="0" x="0" y="5782"/>    
+    </execution>    
+    <execution id="116">      
+      <position height="21" width="0" x="0" y="5875"/>    
+    </execution>    
+    <execution id="120">      
+      <position height="21" width="0" x="0" y="6020"/>    
+    </execution>    
+    <execution id="122">      
+      <position height="21" width="0" x="0" y="6113"/>    
+    </execution>    
+    <execution id="126">      
+      <position height="21" width="0" x="0" y="6299"/>    
+    </execution>    
+    <execution id="130">      
+      <position height="21" width="0" x="0" y="6515"/>    
+    </execution>  
+  </object>  
+  <object id="134" language="java" name="oo.RequestQueue" project="Taxi-my-11" 
+    file="/Taxi-my-11/src/oo/RequestQueue.java" binary="false" label="&lt;static&gt;" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="24">      
+      <position height="21" width="0" x="0" y="1363"/>    
+    </execution>    
+    <execution id="50">      
+      <position height="21" width="0" x="0" y="2644"/>    
+    </execution>    
+    <execution id="62">      
+      <position height="21" width="0" x="0" y="3263"/>    
+    </execution>    
+    <execution id="78">      
+      <position height="21" width="0" x="0" y="4027"/>    
+    </execution>    
+    <execution id="82">      
+      <position height="21" width="0" x="0" y="4244"/>    
+    </execution>    
+    <execution id="106">      
+      <position height="21" width="0" x="0" y="5420"/>    
+    </execution>    
+    <execution id="108">      
+      <position height="21" width="0" x="0" y="5513"/>    
+    </execution>    
+    <execution id="110">      
+      <position height="21" width="0" x="0" y="5637"/>    
+    </execution>    
+    <execution id="128">      
+      <position height="21" width="0" x="0" y="6422"/>    
+    </execution>    
+    <execution id="132">      
+      <position height="21" width="0" x="0" y="6618"/>    
+    </execution>  
+  </object>  
+  <object id="135" language="java" name="oo.Car" project="Taxi-my-11" file="/Taxi-my-11/src/oo/Car.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="28">      
+      <position height="21" width="0" x="0" y="1559"/>    
+    </execution>  
+  </object>  
+  <object id="136" language="java" name="oo.Car" project="Taxi-my-11" file="/Taxi-my-11/src/oo/Car.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="34">      
+      <position height="21" width="0" x="0" y="1797"/>    
+    </execution>  
+  </object>  
+  <object id="137" language="java" name="oo.Car" project="Taxi-my-11" file="/Taxi-my-11/src/oo/Car.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="38">      
+      <position height="21" width="0" x="0" y="2014"/>    
+    </execution>  
+  </object>  
+  <object id="138" language="java" name="oo.Car" project="Taxi-my-11" file="/Taxi-my-11/src/oo/Car.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="42">      
+      <position height="21" width="0" x="0" y="2272"/>    
+    </execution>  
+  </object>  
+  <object id="139" language="java" name="oo.Car" project="Taxi-my-11" file="/Taxi-my-11/src/oo/Car.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="44">      
+      <position height="21" width="0" x="0" y="2365"/>    
+    </execution>  
+  </object>  
+  <object id="140" language="java" name="oo.Car" project="Taxi-my-11" file="/Taxi-my-11/src/oo/Car.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="46">      
+      <position height="21" width="0" x="0" y="2458"/>    
+    </execution>  
+  </object>  
+  <object id="141" language="java" name="oo.Car" project="Taxi-my-11" file="/Taxi-my-11/src/oo/Car.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="48">      
+      <position height="21" width="0" x="0" y="2551"/>    
+    </execution>  
+  </object>  
+  <object id="142" language="java" name="oo.Car" project="Taxi-my-11" file="/Taxi-my-11/src/oo/Car.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="52">      
+      <position height="21" width="0" x="0" y="2737"/>    
+    </execution>  
+  </object>  
+  <object id="143" language="java" name="oo.Car" project="Taxi-my-11" file="/Taxi-my-11/src/oo/Car.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="54">      
+      <position height="21" width="0" x="0" y="2830"/>    
+    </execution>  
+  </object>  
+  <object id="144" language="java" name="oo.Car" project="Taxi-my-11" file="/Taxi-my-11/src/oo/Car.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="56">      
+      <position height="21" width="0" x="0" y="2923"/>    
+    </execution>  
+  </object>  
+  <object id="145" language="java" name="oo.Car" project="Taxi-my-11" file="/Taxi-my-11/src/oo/Car.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="58">      
+      <position height="21" width="0" x="0" y="3016"/>    
+    </execution>  
+  </object>  
+  <object id="146" language="java" name="oo.Car" project="Taxi-my-11" file="/Taxi-my-11/src/oo/Car.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="60">      
+      <position height="21" width="0" x="0" y="3109"/>    
+    </execution>  
+  </object>  
+  <object id="147" language="java" name="oo.Car" project="Taxi-my-11" file="/Taxi-my-11/src/oo/Car.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="84">      
+      <position height="21" width="0" x="0" y="4337"/>    
+    </execution>  
+  </object>  
+  <object id="148" language="java" name="oo.Car" project="Taxi-my-11" file="/Taxi-my-11/src/oo/Car.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="88">      
+      <position height="21" width="0" x="0" y="4554"/>    
+    </execution>  
+  </object>  
+  <object id="149" language="java" name="oo.Car" project="Taxi-my-11" file="/Taxi-my-11/src/oo/Car.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="90">      
+      <position height="21" width="0" x="0" y="4647"/>    
+    </execution>  
+  </object>  
+  <object id="150" language="java" name="oo.Car" project="Taxi-my-11" file="/Taxi-my-11/src/oo/Car.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="94">      
+      <position height="21" width="0" x="0" y="4832"/>    
+    </execution>  
+  </object>  
+  <object id="151" language="java" name="oo.Car" project="Taxi-my-11" file="/Taxi-my-11/src/oo/Car.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="96">      
+      <position height="21" width="0" x="0" y="4925"/>    
+    </execution>  
+  </object>  
+  <object id="152" language="java" name="oo.Car" project="Taxi-my-11" file="/Taxi-my-11/src/oo/Car.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="98">      
+      <position height="21" width="0" x="0" y="5018"/>    
+    </execution>  
+  </object>  
+  <object id="153" language="java" name="oo.Car" project="Taxi-my-11" file="/Taxi-my-11/src/oo/Car.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="100">      
+      <position height="21" width="0" x="0" y="5111"/>    
+    </execution>  
+  </object>  
+  <object id="154" language="java" name="oo.Car" project="Taxi-my-11" file="/Taxi-my-11/src/oo/Car.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="102">      
+      <position height="21" width="0" x="0" y="5204"/>    
+    </execution>  
+  </object>  
+  <object id="155" language="java" name="oo.Car" project="Taxi-my-11" file="/Taxi-my-11/src/oo/Car.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="104">      
+      <position height="21" width="0" x="0" y="5297"/>    
+    </execution>  
+  </object>  
+  <object id="156" language="java" name="oo.Car" project="Taxi-my-11" file="/Taxi-my-11/src/oo/Car.java" binary="false" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="124">      
+      <position height="21" width="0" x="0" y="6206"/>    
+    </execution>  
+  </object>  
+  <combined-fragment id="157" interaction-operator="LOOP">    
+    <interaction-operand id="158" constraint="while: true">      
+      <fragment refId="159"/>      
+      <fragment refId="160"/>      
+      <fragment refId="161"/>      
+      <fragment refId="162"/>    
+    </interaction-operand>    
+    <combined-fragment id="159" interaction-operator="CRITICAL">      
+      <interaction-operand id="163">        
+        <fragment refId="5"/>      
+      </interaction-operand>    
+    </combined-fragment>    
+    <combined-fragment id="160" interaction-operator="LOOP">      
+      <interaction-operand id="164" constraint="for:j &lt; totnum">        
+        <fragment refId="165"/>        
+        <fragment refId="166"/>        
+        <fragment refId="167"/>      
+      </interaction-operand>      
+      <combined-fragment id="165" interaction-operator="CRITICAL">        
+        <interaction-operand id="168">          
+          <fragment refId="7"/>        
+        </interaction-operand>      
+      </combined-fragment>      
+      <combined-fragment id="166" interaction-operator="CRITICAL">        
+        <interaction-operand id="169">          
+          <fragment refId="9"/>        
+        </interaction-operand>      
+      </combined-fragment>      
+      <combined-fragment id="167" interaction-operator="OPT">        
+        <interaction-operand id="170" constraint="u &amp;&amp; time_now &gt;= ti &amp;&amp; time_now &lt;= ti+3000">          
+          <fragment refId="171"/>          
+          <fragment refId="172"/>          
+          <fragment refId="173"/>          
+          <fragment refId="174"/>        
+        </interaction-operand>        
+        <combined-fragment id="173" interaction-operator="CRITICAL">          
+          <interaction-operand id="175">            
+            <fragment refId="11"/>          
+          </interaction-operand>        
+        </combined-fragment>        
+        <combined-fragment id="172" interaction-operator="OPT">          
+          <interaction-operand id="176" constraint="f">            
+            <fragment refId="177"/>            
+            <fragment refId="178"/>            
+            <fragment refId="179"/>            
+            <fragment refId="180"/>            
+            <fragment refId="181"/>            
+            <fragment refId="182"/>          
+          </interaction-operand>          
+          <combined-fragment id="180" interaction-operator="CRITICAL">            
+            <interaction-operand id="183">              
+              <fragment refId="13"/>            
+            </interaction-operand>          
+          </combined-fragment>          
+          <combined-fragment id="177" interaction-operator="CRITICAL">            
+            <interaction-operand id="184">              
+              <fragment refId="15"/>            
+            </interaction-operand>          
+          </combined-fragment>          
+          <combined-fragment id="178" interaction-operator="CRITICAL">            
+            <interaction-operand id="185">              
+              <fragment refId="17"/>            
+            </interaction-operand>          
+          </combined-fragment>          
+          <combined-fragment id="181" interaction-operator="CRITICAL">            
+            <interaction-operand id="186">              
+              <fragment refId="19"/>            
+            </interaction-operand>          
+          </combined-fragment>          
+          <combined-fragment id="179" interaction-operator="CRITICAL">            
+            <interaction-operand id="187">              
+              <fragment refId="21"/>            
+            </interaction-operand>          
+          </combined-fragment>          
+          <combined-fragment id="182" interaction-operator="CRITICAL">            
+            <interaction-operand id="188">              
+              <fragment refId="23"/>            
+            </interaction-operand>          
+          </combined-fragment>        
+        </combined-fragment>        
+        <combined-fragment id="171" interaction-operator="LOOP">          
+          <interaction-operand id="189" constraint="for:i &lt;= 100">            
+            <fragment refId="190"/>            
+            <fragment refId="191"/>            
+            <fragment refId="25"/>            
+            <fragment refId="192"/>            
+            <fragment refId="31"/>            
+            <fragment refId="193"/>            
+            <fragment refId="194"/>          
+          </interaction-operand>          
+          <combined-fragment id="193" interaction-operator="CRITICAL">            
+            <interaction-operand id="195">              
+              <fragment refId="27"/>            
+            </interaction-operand>          
+          </combined-fragment>          
+          <combined-fragment id="192" interaction-operator="CRITICAL">            
+            <interaction-operand id="196">              
+              <fragment refId="29"/>            
+            </interaction-operand>          
+          </combined-fragment>          
+          <combined-fragment id="190" interaction-operator="CRITICAL">            
+            <interaction-operand id="197">              
+              <fragment refId="33"/>            
+            </interaction-operand>          
+          </combined-fragment>          
+          <combined-fragment id="191" interaction-operator="CRITICAL">            
+            <interaction-operand id="198">              
+              <fragment refId="35"/>            
+            </interaction-operand>          
+          </combined-fragment>          
+          <combined-fragment id="194" interaction-operator="OPT">            
+            <interaction-operand id="199" constraint="tmp">              
+              <fragment refId="200"/>              
+              <fragment refId="201"/>              
+              <fragment refId="202"/>            
+            </interaction-operand>            
+            <combined-fragment id="202" interaction-operator="CRITICAL">              
+              <interaction-operand id="203">                
+                <fragment refId="37"/>              
+              </interaction-operand>            
+            </combined-fragment>            
+            <combined-fragment id="200" interaction-operator="OPT">              
+              <interaction-operand id="204" constraint="sta == 2">                
+                <fragment refId="205"/>              
+              </interaction-operand>              
+              <combined-fragment id="205" interaction-operator="CRITICAL">                
+                <interaction-operand id="206">                  
+                  <fragment refId="39"/>                
+                </interaction-operand>              
+              </combined-fragment>            
+            </combined-fragment>            
+            <combined-fragment id="201" interaction-operator="OPT">              
+              <interaction-operand id="207" constraint="first_flag">                
+                <fragment refId="208"/>                
+                <fragment refId="209"/>                
+                <fragment refId="210"/>                
+                <fragment refId="211"/>                
+                <fragment refId="212"/>                
+                <fragment refId="213"/>                
+                <fragment refId="214"/>                
+                <fragment refId="215"/>                
+                <fragment refId="216"/>                
+                <fragment refId="217"/>              
+              </interaction-operand>              
+              <combined-fragment id="211" interaction-operator="CRITICAL">                
+                <interaction-operand id="218">                  
+                  <fragment refId="41"/>                
+                </interaction-operand>              
+              </combined-fragment>              
+              <combined-fragment id="215" interaction-operator="CRITICAL">                
+                <interaction-operand id="219">                  
+                  <fragment refId="43"/>                
+                </interaction-operand>              
+              </combined-fragment>              
+              <combined-fragment id="212" interaction-operator="CRITICAL">                
+                <interaction-operand id="220">                  
+                  <fragment refId="45"/>                
+                </interaction-operand>              
+              </combined-fragment>              
+              <combined-fragment id="216" interaction-operator="CRITICAL">                
+                <interaction-operand id="221">                  
+                  <fragment refId="47"/>                
+                </interaction-operand>              
+              </combined-fragment>              
+              <combined-fragment id="214" interaction-operator="CRITICAL">                
+                <interaction-operand id="222">                  
+                  <fragment refId="49"/>                
+                </interaction-operand>              
+              </combined-fragment>              
+              <combined-fragment id="209" interaction-operator="CRITICAL">                
+                <interaction-operand id="223">                  
+                  <fragment refId="51"/>                
+                </interaction-operand>              
+              </combined-fragment>              
+              <combined-fragment id="213" interaction-operator="CRITICAL">                
+                <interaction-operand id="224">                  
+                  <fragment refId="53"/>                
+                </interaction-operand>              
+              </combined-fragment>              
+              <combined-fragment id="217" interaction-operator="CRITICAL">                
+                <interaction-operand id="225">                  
+                  <fragment refId="55"/>                
+                </interaction-operand>              
+              </combined-fragment>              
+              <combined-fragment id="210" interaction-operator="CRITICAL">                
+                <interaction-operand id="226">                  
+                  <fragment refId="57"/>                
+                </interaction-operand>              
+              </combined-fragment>              
+              <combined-fragment id="208" interaction-operator="CRITICAL">                
+                <interaction-operand id="227">                  
+                  <fragment refId="59"/>                
+                </interaction-operand>              
+              </combined-fragment>            
+            </combined-fragment>          
+          </combined-fragment>        
+        </combined-fragment>        
+        <combined-fragment id="174" interaction-operator="OPT">          
+          <interaction-operand id="228" constraint="first_flag">            
+            <fragment refId="229"/>          
+          </interaction-operand>          
+          <combined-fragment id="229" interaction-operator="CRITICAL">            
+            <interaction-operand id="230">              
+              <fragment refId="61"/>            
+            </interaction-operand>          
+          </combined-fragment>        
+        </combined-fragment>      
+      </combined-fragment>    
+    </combined-fragment>    
+    <combined-fragment id="162" interaction-operator="CRITICAL">      
+      <interaction-operand id="231">        
+        <fragment refId="63"/>      
+      </interaction-operand>    
+    </combined-fragment>    
+    <combined-fragment id="161" interaction-operator="LOOP">      
+      <interaction-operand id="232" constraint="for:j &lt; totnum">        
+        <fragment refId="233"/>        
+        <fragment refId="234"/>        
+        <fragment refId="235"/>      
+      </interaction-operand>      
+      <combined-fragment id="235" interaction-operator="CRITICAL">        
+        <interaction-operand id="236">          
+          <fragment refId="65"/>        
+        </interaction-operand>      
+      </combined-fragment>      
+      <combined-fragment id="233" interaction-operator="CRITICAL">        
+        <interaction-operand id="237">          
+          <fragment refId="67"/>        
+        </interaction-operand>      
+      </combined-fragment>      
+      <combined-fragment id="234" interaction-operator="OPT">        
+        <interaction-operand id="238" constraint="tmp">          
+          <fragment refId="239"/>          
+          <fragment refId="240"/>          
+          <fragment refId="75"/>          
+          <fragment refId="241"/>          
+          <fragment refId="242"/>          
+          <fragment refId="243"/>          
+          <fragment refId="244"/>          
+          <fragment refId="245"/>          
+          <fragment refId="246"/>          
+          <fragment refId="247"/>          
+          <fragment refId="69"/>        
+        </interaction-operand>        
+        <combined-fragment id="244" interaction-operator="CRITICAL">          
+          <interaction-operand id="248">            
+            <fragment refId="71"/>          
+          </interaction-operand>        
+        </combined-fragment>        
+        <combined-fragment id="240" interaction-operator="CRITICAL">          
+          <interaction-operand id="249">            
+            <fragment refId="73"/>          
+          </interaction-operand>        
+        </combined-fragment>        
+        <combined-fragment id="241" interaction-operator="CRITICAL">          
+          <interaction-operand id="250">            
+            <fragment refId="77"/>          
+          </interaction-operand>        
+        </combined-fragment>        
+        <combined-fragment id="242" interaction-operator="CRITICAL">          
+          <interaction-operand id="251">            
+            <fragment refId="79"/>          
+          </interaction-operand>        
+        </combined-fragment>        
+        <combined-fragment id="245" interaction-operator="LOOP">          
+          <interaction-operand id="252" constraint="for: se">            
+            <fragment refId="253"/>            
+            <fragment refId="254"/>            
+            <fragment refId="255"/>          
+          </interaction-operand>          
+          <combined-fragment id="255" interaction-operator="CRITICAL">            
+            <interaction-operand id="256">              
+              <fragment refId="81"/>            
+            </interaction-operand>          
+          </combined-fragment>          
+          <combined-fragment id="254" interaction-operator="CRITICAL">            
+            <interaction-operand id="257">              
+              <fragment refId="83"/>            
+            </interaction-operand>          
+          </combined-fragment>          
+          <combined-fragment id="253" interaction-operator="OPT">            
+            <interaction-operand id="258" constraint="sta == 2">              
+              <fragment refId="259"/>            
+            </interaction-operand>            
+            <combined-fragment id="259" interaction-operator="ALT">              
+              <interaction-operand id="260" constraint="sign == false">                
+                <fragment refId="261"/>                
+                <fragment refId="262"/>                
+                <fragment refId="85"/>              
+              </interaction-operand>              
+              <interaction-operand id="263" constraint="else">                
+                <fragment refId="264"/>                
+                <fragment refId="265"/>                
+                <fragment refId="266"/>                
+                <fragment refId="267"/>                
+                <fragment refId="268"/>                
+                <fragment refId="269"/>                
+                <fragment refId="91"/>              
+              </interaction-operand>              
+              <combined-fragment id="262" interaction-operator="CRITICAL">                
+                <interaction-operand id="270">                  
+                  <fragment refId="87"/>                
+                </interaction-operand>              
+              </combined-fragment>              
+              <combined-fragment id="261" interaction-operator="CRITICAL">                
+                <interaction-operand id="271">                  
+                  <fragment refId="89"/>                
+                </interaction-operand>              
+              </combined-fragment>              
+              <combined-fragment id="267" interaction-operator="CRITICAL">                
+                <interaction-operand id="272">                  
+                  <fragment refId="93"/>                
+                </interaction-operand>              
+              </combined-fragment>              
+              <combined-fragment id="265" interaction-operator="CRITICAL">                
+                <interaction-operand id="273">                  
+                  <fragment refId="95"/>                
+                </interaction-operand>              
+              </combined-fragment>              
+              <combined-fragment id="264" interaction-operator="CRITICAL">                
+                <interaction-operand id="274">                  
+                  <fragment refId="97"/>                
+                </interaction-operand>              
+              </combined-fragment>              
+              <combined-fragment id="268" interaction-operator="CRITICAL">                
+                <interaction-operand id="275">                  
+                  <fragment refId="99"/>                
+                </interaction-operand>              
+              </combined-fragment>              
+              <combined-fragment id="266" interaction-operator="CRITICAL">                
+                <interaction-operand id="276">                  
+                  <fragment refId="101"/>                
+                </interaction-operand>              
+              </combined-fragment>              
+              <combined-fragment id="269" interaction-operator="CRITICAL">                
+                <interaction-operand id="277">                  
+                  <fragment refId="103"/>                
+                </interaction-operand>              
+              </combined-fragment>            
+            </combined-fragment>          
+          </combined-fragment>        
+        </combined-fragment>        
+        <combined-fragment id="246" interaction-operator="CRITICAL">          
+          <interaction-operand id="278">            
+            <fragment refId="105"/>          
+          </interaction-operand>        
+        </combined-fragment>        
+        <combined-fragment id="247" interaction-operator="CRITICAL">          
+          <interaction-operand id="279">            
+            <fragment refId="107"/>          
+          </interaction-operand>        
+        </combined-fragment>        
+        <combined-fragment id="239" interaction-operator="ALT">          
+          <interaction-operand id="280" constraint="sign">            
+            <fragment refId="281"/>            
+            <fragment refId="282"/>            
+            <fragment refId="283"/>            
+            <fragment refId="284"/>            
+            <fragment refId="285"/>            
+            <fragment refId="117"/>            
+            <fragment refId="286"/>            
+            <fragment refId="287"/>            
+            <fragment refId="111"/>          
+          </interaction-operand>          
+          <interaction-operand id="288" constraint="else">            
+            <fragment refId="289"/>            
+            <fragment refId="290"/>          
+          </interaction-operand>          
+          <combined-fragment id="284" interaction-operator="CRITICAL">            
+            <interaction-operand id="291">              
+              <fragment refId="109"/>            
+            </interaction-operand>          
+          </combined-fragment>          
+          <combined-fragment id="285" interaction-operator="CRITICAL">            
+            <interaction-operand id="292">              
+              <fragment refId="113"/>            
+            </interaction-operand>          
+          </combined-fragment>          
+          <combined-fragment id="287" interaction-operator="CRITICAL">            
+            <interaction-operand id="293">              
+              <fragment refId="115"/>            
+            </interaction-operand>          
+          </combined-fragment>          
+          <combined-fragment id="283" interaction-operator="CRITICAL">            
+            <interaction-operand id="294">              
+              <fragment refId="119"/>            
+            </interaction-operand>          
+          </combined-fragment>          
+          <combined-fragment id="281" interaction-operator="CRITICAL">            
+            <interaction-operand id="295">              
+              <fragment refId="121"/>            
+            </interaction-operand>          
+          </combined-fragment>          
+          <combined-fragment id="286" interaction-operator="CRITICAL">            
+            <interaction-operand id="296">              
+              <fragment refId="123"/>            
+            </interaction-operand>          
+          </combined-fragment>          
+          <combined-fragment id="282" interaction-operator="CRITICAL">            
+            <interaction-operand id="297">              
+              <fragment refId="125"/>            
+            </interaction-operand>          
+          </combined-fragment>          
+          <combined-fragment id="290" interaction-operator="CRITICAL">            
+            <interaction-operand id="298">              
+              <fragment refId="127"/>            
+            </interaction-operand>          
+          </combined-fragment>          
+          <combined-fragment id="289" interaction-operator="CRITICAL">            
+            <interaction-operand id="299">              
+              <fragment refId="129"/>            
+            </interaction-operand>          
+          </combined-fragment>        
+        </combined-fragment>        
+        <combined-fragment id="243" interaction-operator="CRITICAL">          
+          <interaction-operand id="300">            
+            <fragment refId="131"/>          
+          </interaction-operand>        
+        </combined-fragment>      
+      </combined-fragment>    
+    </combined-fragment>  
+  </combined-fragment>  
+  <message id="3" operation="run():void" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" operation="gettot():int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="7" operation="getused(int):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="9" operation="gettime(int):long" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="11" operation="getfirst(int):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>  
+  <message id="13" operation="setfirst(int):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="14"/>  
+  </message>  
+  <message id="15" operation="getsrcx(int):int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="16"/>  
+  </message>  
+  <message id="17" operation="getsrcy(int):int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="18"/>  
+  </message>  
+  <message id="19" operation="getdstx(int):int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="20"/>  
+  </message>  
+  <message id="21" operation="getdsty(int):int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="22"/>  
+  </message>  
+  <message id="23" operation="LogFile(int):java.io.PrintStream" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="24"/>  
+  </message>  
+  <message id="25" operation="myabs(int):int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="26"/>  
+  </message>  
+  <message id="27" operation="getx():int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="28"/>  
+  </message>  
+  <message id="29" operation="getsrcx(int):int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="30"/>  
+  </message>  
+  <message id="31" operation="myabs(int):int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="32"/>  
+  </message>  
+  <message id="33" operation="gety():int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="34"/>  
+  </message>  
+  <message id="35" operation="getsrcy(int):int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="36"/>  
+  </message>  
+  <message id="37" operation="getstate():int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="38"/>  
+  </message>  
+  <message id="39" operation="setset(int,int):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="40"/>  
+  </message>  
+  <message id="41" operation="getx():int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="42"/>  
+  </message>  
+  <message id="43" operation="gety():int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="44"/>  
+  </message>  
+  <message id="45" operation="getstate():int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="46"/>  
+  </message>  
+  <message id="47" operation="getcredit():int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="48"/>  
+  </message>  
+  <message id="49" operation="LogFile(int):java.io.PrintStream" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="50"/>  
+  </message>  
+  <message id="51" operation="getx():int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="52"/>  
+  </message>  
+  <message id="53" operation="gety():int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="54"/>  
+  </message>  
+  <message id="55" operation="getstate():int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="56"/>  
+  </message>  
+  <message id="57" operation="getcredit():int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="58"/>  
+  </message>  
+  <message id="59" operation="add_credit():void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="60"/>  
+  </message>  
+  <message id="61" operation="LogFile(int):java.io.PrintStream" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="62"/>  
+  </message>  
+  <message id="63" operation="gettot():int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="64"/>  
+  </message>  
+  <message id="65" operation="getused(int):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="66"/>  
+  </message>  
+  <message id="67" operation="gettime(int):long" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="68"/>  
+  </message>  
+  <message id="69" operation="loc(int,int):int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="70"/>  
+  </message>  
+  <message id="71" operation="getsrcx(int):int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="72"/>  
+  </message>  
+  <message id="73" operation="getsrcy(int):int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="74"/>  
+  </message>  
+  <message id="75" operation="spfa_2(int):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="76"/>  
+  </message>  
+  <message id="77" operation="LogFile(int):java.io.PrintStream" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="78"/>  
+  </message>  
+  <message id="79" operation="getset(int):java.util.Set&lt;Integer&gt;" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="80"/>  
+  </message>  
+  <message id="81" operation="LogFile(int):java.io.PrintStream" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="82"/>  
+  </message>  
+  <message id="83" operation="getstate():int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="84"/>  
+  </message>  
+  <message id="85" operation="loc(int,int):int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="86"/>  
+  </message>  
+  <message id="87" operation="getx():int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="88"/>  
+  </message>  
+  <message id="89" operation="gety():int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="90"/>  
+  </message>  
+  <message id="91" operation="loc(int,int):int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="92"/>  
+  </message>  
+  <message id="93" operation="getx():int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="94"/>  
+  </message>  
+  <message id="95" operation="gety():int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="96"/>  
+  </message>  
+  <message id="97" operation="getcredit():int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="98"/>  
+  </message>  
+  <message id="99" operation="getcredit():int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="100"/>  
+  </message>  
+  <message id="101" operation="getcredit():int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="102"/>  
+  </message>  
+  <message id="103" operation="getcredit():int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="104"/>  
+  </message>  
+  <message id="105" operation="LogFile(int):java.io.PrintStream" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="106"/>  
+  </message>  
+  <message id="107" operation="LogFile(int):java.io.PrintStream" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="108"/>  
+  </message>  
+  <message id="109" operation="LogFile(int):java.io.PrintStream" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="110"/>  
+  </message>  
+  <message id="111" operation="loc(int,int):int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="112"/>  
+  </message>  
+  <message id="113" operation="getsrcx(int):int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="114"/>  
+  </message>  
+  <message id="115" operation="getsrcy(int):int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="116"/>  
+  </message>  
+  <message id="117" operation="loc(int,int):int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="118"/>  
+  </message>  
+  <message id="119" operation="getdstx(int):int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="120"/>  
+  </message>  
+  <message id="121" operation="getdsty(int):int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="122"/>  
+  </message>  
+  <message id="123" operation="spfa(int,int,int):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="124"/>  
+  </message>  
+  <message id="125" operation="setused(int,boolean):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="126"/>  
+  </message>  
+  <message id="127" operation="LogFile(int):java.io.PrintStream" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="128"/>  
+  </message>  
+  <message id="129" operation="setused(int,boolean):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="130"/>  
+  </message>  
+  <message id="131" operation="LogFile(int):java.io.PrintStream" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="132"/>  
+  </message>
+</sequence-diagram>

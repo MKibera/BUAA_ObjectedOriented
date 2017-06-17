@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.2.0" icons="true" generate-combined-fragments="true">  
+  <object id="1" language="java" name="oo.Main" project="Taxi-my-11" file="/Taxi-my-11/src/oo/Main.java" binary="false" 
+    label="main" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="155" y="0"/>    
+    <execution id="2">      
+      <position height="742" width="0" x="0" y="166"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="679" width="0" x="0" y="208"/>    
+    </execution>  
+  </object>  
+  <object id="29" language="java" name="oo.mapInfo" project="Taxi-my-11" file="/Taxi-my-11/src/oo/Main.java" 
+    binary="false" label="mi" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="6">      
+      <position height="21" width="0" x="0" y="239"/>    
+    </execution>    
+    <execution id="8">      
+      <position height="21" width="0" x="0" y="281"/>    
+    </execution>  
+  </object>  
+  <object id="30" language="java" name="oo.Map" project="Taxi-my-11" file="/Taxi-my-11/src/oo/Map.java" binary="false" 
+    label="mp" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="10">      
+      <position height="21" width="0" x="0" y="323"/>    
+    </execution>    
+    <execution id="12">      
+      <position height="21" width="0" x="0" y="365"/>    
+    </execution>    
+    <execution id="14">      
+      <position height="21" width="0" x="0" y="407"/>    
+    </execution>  
+  </object>  
+  <object id="31" language="java" name="oo.Light" project="Taxi-my-11" file="/Taxi-my-11/src/oo/Light.java" 
+    binary="false" label="l" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="16">      
+      <position height="21" width="0" x="0" y="449"/>    
+    </execution>  
+  </object>  
+  <object id="32" language="java" name="oo.MyException" project="Taxi-my-11" file="/Taxi-my-11/src/oo/MyException.java" 
+    binary="false" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="18">      
+      <position height="21" width="0" x="0" y="491"/>    
+    </execution>  
+  </object>  
+  <object id="33" language="java" name="oo.RequestQueue" project="Taxi-my-11" 
+    file="/Taxi-my-11/src/oo/RequestQueue.java" binary="false" label="rq" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="20">      
+      <position height="21" width="0" x="0" y="533"/>    
+    </execution>  
+  </object>  
+  <object id="34" language="java" name="oo.RequestAdd" project="Taxi-my-11" file="/Taxi-my-11/src/oo/RequestAdd.java" 
+    binary="false" label="ra" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="22">      
+      <position height="21" width="0" x="0" y="575"/>    
+    </execution>  
+  </object>  
+  <object id="35" language="java" name="oo.Car2" project="Taxi-my-11" file="/Taxi-my-11/src/oo/Car2.java" binary="false" 
+    label="car2" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="24">      
+      <position height="21" width="0" x="0" y="658"/>    
+    </execution>  
+  </object>  
+  <object id="36" language="java" name="oo.Car" project="Taxi-my-11" file="/Taxi-my-11/src/oo/Car.java" binary="false" 
+    label="car" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="26">      
+      <position height="21" width="0" x="0" y="751"/>    
+    </execution>  
+  </object>  
+  <object id="37" language="java" name="oo.Dispatch" project="Taxi-my-11" file="/Taxi-my-11/src/oo/Dispatch.java" 
+    binary="false" label="d" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="28">      
+      <position height="21" width="0" x="0" y="845"/>    
+    </execution>  
+  </object>  
+  <combined-fragment id="38" interaction-operator="LOOP">    
+    <interaction-operand id="39" constraint="for:i &lt;= M1">      
+      <fragment refId="23"/>    
+    </interaction-operand>  
+  </combined-fragment>  
+  <combined-fragment id="40" interaction-operator="LOOP">    
+    <interaction-operand id="41" constraint="for:i &lt;= M1+M2">      
+      <fragment refId="25"/>    
+    </interaction-operand>  
+  </combined-fragment>  
+  <message id="3" operation="main(java.lang.String[]):void" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" operation="mapInfo()" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="7" operation="readmap(java.lang.String):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="9" operation="Map()" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="11" operation="work(java.lang.String):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>  
+  <message id="13" operation="work2(java.lang.String):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="14"/>  
+  </message>  
+  <message id="15" operation="Light()" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="16"/>  
+  </message>  
+  <message id="17" operation="MyException()" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="18"/>  
+  </message>  
+  <message id="19" operation="RequestQueue()" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="20"/>  
+  </message>  
+  <message id="21" operation="RequestAdd(oo.RequestQueue)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="22"/>  
+  </message>  
+  <message id="23" operation="Car2(oo.RequestQueue,int,oo.Car[],int)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="24"/>  
+  </message>  
+  <message id="25" operation="Car(oo.RequestQueue,int,oo.Car[],int)" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="26"/>  
+  </message>  
+  <message id="27" operation="Dispatch(oo.RequestQueue,oo.Car[])" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="28"/>  
+  </message>
+</sequence-diagram>

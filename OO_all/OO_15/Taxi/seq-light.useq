@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.2.0" icons="true" automaticImage="JPEG" generate-combined-fragments="true">  
+  <object id="1" language="java" name="oo.Light" project="Taxi-my-11" file="/Taxi-my-11/src/oo/Light.java" 
+    binary="false" label="light" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="180" y="0"/>    
+    <execution id="2">      
+      <position height="260" width="0" x="0" y="208"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="197" width="0" x="0" y="250"/>    
+    </execution>  
+  </object>  
+  <object id="7" language="java" name="oo.Map" project="Taxi-my-11" file="/Taxi-my-11/src/oo/Map.java" binary="false" 
+    label="&lt;static&gt;" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="6">      
+      <position height="21" width="0" x="0" y="405"/>    
+    </execution>  
+  </object>  
+  <combined-fragment id="8" interaction-operator="LOOP">    
+    <interaction-operand id="9" constraint="while: true">      
+      <fragment refId="10"/>    
+    </interaction-operand>    
+    <combined-fragment id="10" interaction-operator="LOOP">      
+      <interaction-operand id="11" constraint="for:i &lt;= 80">        
+        <fragment refId="12"/>      
+      </interaction-operand>      
+      <combined-fragment id="12" interaction-operator="LOOP">        
+        <interaction-operand id="13" constraint="for:j &lt;= 80">          
+          <fragment refId="14"/>        
+        </interaction-operand>        
+        <combined-fragment id="14" interaction-operator="CRITICAL">          
+          <interaction-operand id="15">            
+            <fragment refId="5"/>          
+          </interaction-operand>        
+        </combined-fragment>      
+      </combined-fragment>    
+    </combined-fragment>  
+  </combined-fragment>  
+  <message id="3" operation="run():void" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" operation="getw():boolean[][]" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>
+</sequence-diagram>
